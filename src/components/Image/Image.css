@@ -4,6 +4,20 @@
 }
 
 .image-container {
-    width: 350px;
+    width: 340px;
     background-color: #fafafa;
+    margin: 10px;
+    border: 1px solid gold;
+}
+
+.image-name {
+    font-family: Arial;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.image-description{
+    font-family: Arial;
+    color: blue;
 }

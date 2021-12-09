@@ -1,14 +1,29 @@
-let images = {
-    img1: {
+let images = [
+    {
       imageName: "Mountain",
-      imageUrl: "whatever",
+      imageUrl: "https://firebasestorage.googleapis.com/v0/b/slon-6085d.appspot.com/o/images%2Fhimalayas.jpg?alt=media&token=7a3b0417-eb52-4167-be6d-90ed93b7a00d",
       imageDescription: "Great view"
     },
-    img2: {
+    {
       imageName: "Good looking mountain",
-      imageUrl: "yes",
+      imageUrl: "https://firebasestorage.googleapis.com/v0/b/slon-6085d.appspot.com/o/images%2Fhimalayas.jpg?alt=media&token=7a3b0417-eb52-4167-be6d-90ed93b7a00d",
       imageDescription: "Another one :9"
-    }
-}
+    },
+    {
+        imageName: "Good looking mountain",
+        imageUrl: "https://firebasestorage.googleapis.com/v0/b/slon-6085d.appspot.com/o/images%2Fhimalayas.jpg?alt=media&token=7a3b0417-eb52-4167-be6d-90ed93b7a00d",
+        imageDescription: "Another one :9"
+    },
+    {
+        imageName: "Good looking mountain",
+        imageUrl: "https://firebasestorage.googleapis.com/v0/b/slon-6085d.appspot.com/o/images%2Fhimalayas.jpg?alt=media&token=7a3b0417-eb52-4167-be6d-90ed93b7a00d",
+        imageDescription: "Another one :9"
+    },
+    {
+        imageName: "Good looking mountain",
+        imageUrl: "https://firebasestorage.googleapis.com/v0/b/slon-6085d.appspot.com/o/images%2Fhimalayas.jpg?alt=media&token=7a3b0417-eb52-4167-be6d-90ed93b7a00d",
+        imageDescription: "Another one. This is a special view from one of the research facilities that I stayed in during the winter"
+    },
+]
 
 export {images}
