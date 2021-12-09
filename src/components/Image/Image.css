@@ -1,0 +1,9 @@
+.image {
+    width: 340px;
+    height: auto;
+}
+
+.image-container {
+    width: 350px;
+    background-color: #fafafa;
+}

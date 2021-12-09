@@ -1,9 +1,15 @@
 import './App.css';
+import Image from './components/Image/Image';
+import {images} from './images'
+
+console.log(images)
 
 function App() {
   return (
     <div className="App">
-      Hello world!
+      <Image imageUrl = 'something' imageName='Mountain' imageDescription = 'Beautiful mountain'></Image>
+
+
     </div>
   );
 }
