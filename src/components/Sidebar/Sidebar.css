@@ -1,0 +1,25 @@
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .side-nav-container {
+        display: none;
+    }
+}
+
+.side-nav a{
+    padding: 15px;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+    text-decoration: none;
+    color: rgb(2, 11, 61)
+}
+
+
+.side-nav a:hover {
+    background-color: rgba(2, 11, 61, 0.2);
+    border-left: 5px solid rgb(23, 104, 255);
+}

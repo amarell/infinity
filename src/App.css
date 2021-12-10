@@ -7,7 +7,7 @@
 }
 
 .App{
-  
+  font-family: sans-serif;
 }
 
 .images {
@@ -15,4 +15,9 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.content {
+  display: flex;
+
 }
