@@ -22,9 +22,9 @@ function Navbar({search, setSearch}) {
                     </div>
                     
                     <div className='float-right'>
+                        <a href="#profile"><FontAwesomeIcon icon={faUserCircle} /></a>
+                        <a href="#settings"><FontAwesomeIcon icon={faCog} /></a>
                         <a href="#home"><FontAwesomeIcon icon={faBell} /></a>
-                        <a href="#about"><FontAwesomeIcon icon={faCog} /></a>
-                        <a href="#contact"><FontAwesomeIcon icon={faUserCircle} /></a>
                     </div>
                    
                 </div>  

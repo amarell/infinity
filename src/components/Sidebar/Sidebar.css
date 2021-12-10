@@ -15,11 +15,35 @@
     padding-left: 10px;
     border-left: 5px solid transparent;
     text-decoration: none;
-    color: rgb(2, 11, 61)
+    color: rgb(23, 104, 255)
 }
 
 
 .side-nav a:hover {
     background-color: rgba(2, 11, 61, 0.2);
     border-left: 5px solid rgb(23, 104, 255);
+}
+
+.show-button {
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 34px;
+}
+
+.show-button span {
+    font-size: 30px;
+    color: rgb(23, 104, 255);
+}
+
+
+.collapse-button {
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.collapse-button span {
+    font-size: 30px;
+    color: rgb(23, 104, 255);
 }

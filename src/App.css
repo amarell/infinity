@@ -10,6 +10,12 @@
   font-family: sans-serif;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .images {
   display: flex;
   align-items: center;

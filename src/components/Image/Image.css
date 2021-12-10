@@ -1,12 +1,15 @@
 .image {
     width: 340px;
     height: auto;
+    margin: 10px;
 }
 
 .image-container {
-    width: 340px;
+    border-radius: 5px;
+    width: 360px;
     background-color: #fafafa;
     margin: 10px;
+    box-shadow: 10px 10px 10px grey;
 }
 
 .image-name {
@@ -14,9 +17,13 @@
     color: darkblue;
     font-weight: bold;
     font-size: 27px;
+    margin-left: 10px;
 }
 
 .image-description{
     font-family: Arial;
     color: blue;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
