@@ -9,7 +9,7 @@
     width: 360px;
     background-color: #E9E9E9;
     margin: 10px;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px rgba(150, 150, 150, 0.4);
 }
 
 .image-name {
