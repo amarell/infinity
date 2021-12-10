@@ -4,6 +4,10 @@
     min-width: 150px;
 }
 
+.side-nav-container {
+    background-color: #e9e9e9;
+}
+
 @media screen and (max-width: 600px) {
     .side-nav-container {
         display: none;
@@ -29,6 +33,8 @@
     margin-top: 10px;
     cursor: pointer;
     width: 34px;
+    padding-right: 20px;
+ 
 }
 
 .show-button span {
@@ -41,6 +47,7 @@
     margin-left: 20px;
     margin-top: 10px;
     cursor: pointer;
+    padding-bottom: 10px;
 }
 
 .collapse-button span {
