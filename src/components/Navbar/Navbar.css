@@ -3,7 +3,7 @@
     font-family: sans-serif;
     display: flex;
     overflow: hidden;
-    background-color: rgb(23, 104, 255);
+    background-color: #0384fc;
     justify-content: space-between;
     align-items: center;
 }
@@ -37,13 +37,7 @@
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: rgba(255, 255, 255, 1);
-    color: rgb(23, 104, 255);
-}
-
-/* Style the "active" element to highlight the current page */
-.topnav a.active {
-    background-color: #2196F3;
-    color: white;
+    color: #0384fc;
 }
 
 /* Style the search box inside the navigation bar */
@@ -53,6 +47,20 @@
     text-align: center;
     font-size: 17px;
     outline: none;
+}
+
+.username-role-info {
+    margin-left: 10px;
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+}
+
+.profile-link div div{
+    font-size: 12px;
+    text-align: left;
 }
 
 .search-container {
@@ -81,9 +89,6 @@
 
     .float-right {
         margin-top: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         width: 100%;
     }
 }

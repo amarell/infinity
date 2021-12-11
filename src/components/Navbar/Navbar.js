@@ -22,7 +22,18 @@ function Navbar({search, setSearch}) {
                     </div>
                     
                     <div className='float-right'>
-                        <a href="#profile"><FontAwesomeIcon icon={faUserCircle} /></a>
+                        <a href="#profile">
+                            <div className='profile-link'>
+                                <div>
+                                    <FontAwesomeIcon icon={faUserCircle} />
+                                </div>
+                                <div className='username-role-info'>
+                                    <div><strong>Username</strong></div>
+                                    <div>Administrator</div>
+                                </div>
+                            </div>
+                            
+                        </a>
                         <a href="#settings"><FontAwesomeIcon icon={faCog} /></a>
                         <a href="#home"><FontAwesomeIcon icon={faBell} /></a>
                     </div>

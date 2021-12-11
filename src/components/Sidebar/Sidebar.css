@@ -19,13 +19,13 @@
     padding-left: 10px;
     border-left: 5px solid transparent;
     text-decoration: none;
-    color: rgb(23, 104, 255)
+    color: #0384fc
 }
 
 
 .side-nav a:hover {
     background-color: rgba(2, 11, 61, 0.2);
-    border-left: 5px solid rgb(23, 104, 255);
+    border-left: 5px solid #0384fc;
 }
 
 .show-button {
@@ -39,7 +39,7 @@
 
 .show-button span {
     font-size: 30px;
-    color: rgb(23, 104, 255);
+    color: #0384fc;
 }
 
 
@@ -52,5 +52,5 @@
 
 .collapse-button span {
     font-size: 30px;
-    color: rgb(23, 104, 255);
+    color: #0384fc;
 }
